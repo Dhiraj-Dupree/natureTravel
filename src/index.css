@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+.links a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: black;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.logo {
+  font-size: 25px;
+}
+
+.heroText {
+  color: white;
+  border-bottom: 2px solid white;
+  padding-bottom: 20px;
+}
+
+.heroParagraph {
+  color: white;
+  font-size: 10px;
+  width: 200px;
+  margin-top: 40px;
+}
+
+.heroTextBox {
+  margin-left: 50px;
+  padding-top: 40px;
+}
+
+.AboutText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding-top: 20px;
+}
+
+.InfoContainer {
+  display: flex;
+  font-size: 8px;
+  color: white;
+  padding: 5px;
+  justify-content: center;
+}
+
+.signUp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.signUp button {
+  padding: 5px 25px 5px 25px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  background-color: rgb(6, 233, 74);
+  color: black;
+  margin-top: 20px;
+}
+
+.footer {
+  background-color: gray;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footerInfo {
+  display: flex;
+  font-size: 10px;
+}
+
+.email {
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+input {
+  width: 120px;
+  height: 10px;
+  font-size: 10px;
+}
+
+.extras {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  font-size: 10px;
+}
+
+@media (min-width: 768px) {
+  .InfoContainer {
+    width: 380px;
+    font-size: 10px;
+  }
+
+  .footerInfo {
+    width: 500px;
+  }
+
+  .footerInfo p {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+}
